@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sdn1sukarami.netlify.app/sitemap.xml

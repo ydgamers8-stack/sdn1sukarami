@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+<<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portal Resmi SD Negeri 1 Sukarami - Balik Bukit Lampung Barat</title>
+    <meta name="description" content="Website resmi dan portal informasi data real-time SD Negeri 1 Sukarami, Kecamatan Balik Bukit, Kabupaten Lampung Barat. Informasi PPDB, prestasi, dan profil sekolah.">
+    <meta name="keywords" content="SDN 1 Sukarami, SD Negeri 1 Sukarami, Sekolah Dasar Lampung Barat, Balik Bukit, PPDB SDN 1 Sukarami, Portal Sukarami">
+    <meta name="author" content="SDN 1 Sukarami">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="z0L1hCdR9_AtDeebpQC0-RSOoD0wqZe-z2vsXbQCVk4" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sdn1sukarami.netlify.app/"> <meta property="og:title" content="Portal Resmi SD Negeri 1 Sukarami - Lampung Barat">
+    <meta property="og:description" content="Membentuk generasi cerdas, berkarakter, dan siap menyongsong masa depan di Bumi Lampung Barat.">
+    <meta property="og:image" content="https://sdn1sukarami.netlify.app/logo-sekolah.png"> <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Portal Resmi SD Negeri 1 Sukarami">
+    <meta property="twitter:description" content="Portal informasi data real-time dan profil resmi SD Negeri 1 Sukarami.">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans scroll-smooth">
+
+    <nav class="bg-blue-700 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                    <div class="bg-white p-2 rounded-full text-blue-700 font-bold text-xl w-10 h-10 flex items-center justify-center shadow">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div>
+                        <span class="font-bold text-base md:text-lg block tracking-wide leading-none">SDN 1 SUKARAMI</span>
+                        <span class="text-[10px] text-blue-200 block mt-0.5">Portal & Informasi Sekolah</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-5 text-sm font-medium">
+                    <a href="#beranda" class="hover:text-blue-200 transition">Beranda</a>
+                    <a href="#profil" class="hover:text-blue-200 transition">Profil</a>
+                    <a href="#dashboard" class="hover:text-blue-200 transition">Dashboard Data</a>
+                    <a href="#fasilitas" class="hover:text-blue-200 transition">Fasilitas</a>
+                    <a href="#kontak" class="hover:text-blue-200 transition">Kontak</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-white focus:outline-none hover:text-blue-200 transition">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-blue-800 border-t border-blue-600 px-4 pt-2 pb-4 space-y-2">
+            <a href="#beranda" class="block py-2 px-3 rounded hover:bg-blue-600 transition text-sm">Beranda</a>
+            <a href="#profil" class="block py-2 px-3 rounded hover:bg-blue-600 transition text-sm">Profil</a>
+            <a href="#dashboard" class="block py-2 px-3 rounded hover:bg-blue-600 transition text-sm">Dashboard Data</a>
+            <a href="#fasilitas" class="block py-2 px-3 rounded hover:bg-blue-600 transition text-sm">Fasilitas</a>
+            <a href="#kontak" class="block py-2 px-3 rounded hover:bg-blue-600 transition text-sm">Kontak</a>
+        </div>
+    </nav>
+
+    <header id="beranda" class="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20 px-4 text-center overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="relative max-w-4xl mx-auto">
+            <span class="bg-yellow-400 text-blue-900 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                Kurikulum Merdeka Belajar
+            </span>
+            <h1 class="text-4xl md:text-5xl font-extrabold mt-4 mb-4 leading-tight">
+                Selamat Datang di <br><span class="text-yellow-300">SD Negeri 1 Sukarami</span>
+            </h1>
+            <p class="text-base md:text-lg text-blue-100 max-w-2xl mx-auto mb-8">
+                Membentuk generasi cerdas, berkarakter, dan siap menyongsong masa depan yang gemilang.
+            </p>
+            <div class="flex justify-center gap-4">
+                <div class="bg-white text-gray-800 px-4 py-2.5 rounded-xl shadow-lg flex items-center gap-3">
+                    <div class="text-yellow-500 text-xl font-bold">A</div>
+                    <div class="text-left leading-tight">
+                        <span class="text-[10px] text-gray-400 block">Akreditasi</span>
+                        <span class="text-xs font-bold text-gray-700">Sangat Baik</span>
+                    </div>
+                </div>
+                <div class="bg-blue-900/50 text-white px-4 py-2.5 rounded-xl shadow-lg flex items-center gap-3 border border-blue-500">
+                    <i class="fa-solid fa-award text-yellow-300 text-lg"></i>
+                    <div class="text-left leading-tight">
+                        <span class="text-[10px] text-blue-300 block">NPSN</span>
+                        <span class="text-xs font-bold text-blue-100">10803756</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="profil" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-8 items-start">
+        <div class="bg-gradient-to-br from-blue-700 to-blue-800 text-white p-6 rounded-2xl shadow-md text-center md:col-span-1">
+            <div class="w-20 h-20 bg-blue-100 rounded-full mx-auto mb-4 border-4 border-white/20 flex items-center justify-center">
+                <i class="fa-solid fa-user-tie text-blue-700 text-3xl"></i>
+            </div>
+            <h4 class="font-bold text-base">Sambutan Kepala Sekolah</h4>
+            <div class="h-0.5 w-10 bg-yellow-300 mx-auto my-2"></div>
+            <p class="text-xs text-blue-200 italic leading-relaxed">
+                "Selamat datang di website resmi SDN 1 Sukarami. Kami berkomitmen untuk terus meningkatkan mutu pendidikan, memanfaatkan teknologi digital, dan membentuk karakter peserta didik."
+            </p>
+        </div>
+
+        <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-100 md:col-span-2">
+            <h3 class="text-xl font-bold text-slate-800 mb-2 flex items-center gap-2">
+                <i class="fa-solid fa-bullseye text-blue-600"></i> Visi & Misi
+            </h3>
+            <div class="space-y-4 mt-4">
+                <div>
+                    <h4 class="font-bold text-slate-700 text-xs uppercase tracking-wider mb-1">Visi:</h4>
+                    <p class="text-slate-600 text-sm bg-slate-50 p-3 rounded-lg border-l-4 border-yellow-400">
+                        "Terwujudnya generasi yang cerdas, terampil, berbudaya, dan unggul dalam prestasi berlandaskan iman dan taqwa."
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-700 text-xs uppercase tracking-wider mb-1">Misi:</h4>
+                    <ul class="list-disc list-inside text-slate-600 text-sm space-y-1 pl-1">
+                        <li>Melaksanakan pembelajaran dan bimbingan secara efektif dan optimal.</li>
+                        <li>Menumbuhkan penghayatan terhadap ajaran agama dan budaya bangsa.</li>
+                        <li>Mengembangkan bakat dan minat siswa melalui kegiatan ekstrakurikuler.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dashboard" class="bg-slate-100/70 py-16 border-t border-b border-slate-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+            <div class="text-center sm:text-left">
+                <h2 class="text-2xl font-bold text-slate-800">Dashboard Monitor Data</h2>
+                <p class="text-xs text-slate-500 mt-1">Status statistik internal dan sinkronisasi aktivitas data sektoral</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200/50 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs font-semibold text-slate-400 block uppercase tracking-wider">Total Siswa</span>
+                        <span id="totalSiswa" class="text-2xl font-black text-slate-800 mt-0.5 block">--</span>
+                    </div>
+                    <div class="w-10 h-10 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center text-lg"><i class="fa-solid fa-users"></i></div>
+                </div>
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200/50 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs font-semibold text-slate-400 block uppercase tracking-wider">Total Guru & Staf</span>
+                        <span id="totalGuru" class="text-2xl font-black text-slate-800 mt-0.5 block">--</span>
+                    </div>
+                    <div class="w-10 h-10 bg-emerald-50 text-emerald-600 rounded-lg flex items-center justify-center text-lg"><i class="fa-solid fa-chalkboard-user"></i></div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200/50 lg:col-span-2 flex flex-col justify-between">
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-sm font-bold text-slate-700">Grafik Aktivitas Sinkronisasi</span>
+                        <div class="flex bg-slate-100 p-1 rounded-lg text-[11px] font-bold">
+                            <button id="btn30Hari" class="px-2.5 py-1 transition bg-white shadow-sm rounded-md text-emerald-600">30 Hari</button>
+                            <button id="btn7Hari" class="px-2.5 py-1 transition text-slate-400 hover:text-slate-600 ml-1">7 Hari</button>
+                        </div>
+                    </div>
+                    <div class="relative h-64 w-full">
+                        <canvas id="syncChart"></canvas>
+                    </div>
+                </div>
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200/50 lg:col-span-1">
+                    <span class="text-sm font-bold text-slate-700 block mb-3">10 Besar Integrasi Provinsi</span>
+                    <div id="rankingList" class="space-y-2 text-xs">
+                        <div class="text-slate-400 animate-pulse">Memuat data ranking...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fasilitas" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-10">
+            <h2 class="text-2xl font-bold text-slate-800">Sarana & Prasarana</h2>
+            <div class="h-1 w-12 bg-blue-600 mx-auto mt-2 rounded-full"></div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-3"><i class="fa-solid fa-map-location-dot"></i></div>
+                <h4 class="font-bold text-sm text-slate-800">Luas Tanah</h4>
+                <p class="text-xl font-extrabold text-blue-600 mt-1">4.730 <span class="text-xs font-normal text-slate-400">m²</span></p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                <div class="w-10 h-10 bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center mx-auto mb-3"><i class="fa-solid fa-bolt"></i></div>
+                <h4 class="font-bold text-sm text-slate-800">Sumber Listrik</h4>
+                <p class="text-lg font-bold text-slate-700 mt-1">PLN</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                <div class="w-10 h-10 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-3"><i class="fa-solid fa-wifi"></i></div>
+                <h4 class="font-bold text-sm text-slate-800">Akses Internet</h4>
+                <p class="text-lg font-bold text-slate-700 mt-1">Tersedia</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="py-16 bg-slate-100/50 border-t border-slate-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+            <div class="text-center mb-4">
+                <h2 class="text-2xl font-bold text-slate-800">Hubungi & Temukan Kami</h2>
+                <div class="h-1 w-12 bg-blue-600 mx-auto mt-2 rounded-full"></div>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-6">
+                <div class="space-y-4 lg:col-span-1">
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100 flex gap-4">
+                        <div class="text-blue-600 text-xl"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="text-xs">
+                            <h4 class="font-bold text-slate-800 mb-0.5">Alamat</h4>
+                            <p class="text-slate-600 leading-relaxed">SDN 1 SUKARAMI, Sukarame, Kec. Balik Bukit, Kabupaten Lampung Barat, Lampung.</p>
+                            <span class="bg-slate-100 px-1.5 py-0.5 rounded text-slate-400 inline-block mt-1 font-bold">Kode Pos 34817</span>
+                        </div>
+                    </div>
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100 flex gap-4">
+                        <div class="text-blue-600 text-xl"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="text-xs">
+                            <h4 class="font-bold text-slate-800 mb-0.5">Email Resmi</h4>
+                            <p class="text-blue-600 font-semibold">sukaramisdn1@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-slate-100 lg:col-span-2">
+                    <h3 class="text-sm font-bold text-slate-800 mb-3">Kirim Pesan Langsung</h3>
+                    <form id="contact-form" class="space-y-3 text-xs">
+                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div>
+                                <label class="block text-slate-400 font-bold mb-1 uppercase tracking-wider">Nama Lengkap</label>
+                                <input type="text" id="form-name" name="nama_lengkap" required class="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label class="block text-slate-400 font-bold mb-1 uppercase tracking-wider">Email / No. HP</label>
+                                <input type="text" id="form-contact" name="kontak_pengirim" required class="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:border-blue-500">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-400 font-bold mb-1 uppercase tracking-wider">Isi Pesan</label>
+                            <textarea id="form-message" name="isi_pesan" rows="3" required class="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:border-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="bg-blue-600 text-white font-bold px-4 py-2.5 rounded-lg hover:bg-blue-700 transition flex items-center gap-2 shadow-sm">
+                            <i class="fa-solid fa-paper-plane"></i> Kirim Pesan
+                        </button>
+                    </form>
+                    <div id="form-alert" class="hidden mt-3 p-3 rounded-lg border text-xs"></div>
+                </div>
+            </div>
+
+            <div class="bg-white p-1.5 rounded-xl shadow-sm border border-slate-200/60 w-full overflow-hidden">
+                <iframe 
+                    src="https://maps.google.com/maps?q=SDN%201%20SUKARAMI,%20Sukarame,%20Kec.%20Balik%20Bukit,%20Kabupaten%20Lampung%20Barat&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                    width="100%" 
+                    height="320" 
+                    style="border:0; border-radius: 0.5rem;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-500 py-6 text-center text-xs border-t border-slate-800">
+        <p>© 2026 Portal Resmi SDN 1 SUKARAMI. All Rights Reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
